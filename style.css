@@ -17,7 +17,7 @@ body {
 }
 
 .box {
-  width: 350px;
+  width: 320px;
   height: auto;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -29,25 +29,29 @@ body {
   padding: 0;
   box-sizing: border-box;
   padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 img {
-  width: 280 px;
-  height: 320px;
+  width: 250 px;
+  height: 300px;
   border-radius: 10px;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .text {
   text-align: center; /* Keep text-align here */
-  width: 80%;
+  width: 90%;
   padding: 0; /* Remove any padding to avoid pushing content */
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
