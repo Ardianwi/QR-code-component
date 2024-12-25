@@ -43,6 +43,7 @@ img {
   width: 80%;
   padding: 0; /* Remove any padding to avoid pushing content */
   box-sizing: border-box;
+  margin-top: 10px;
 }
 
 h1 {
