@@ -28,7 +28,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   padding-bottom: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -51,7 +51,7 @@ h1 {
 
 p {
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
   letter-spacing: 0.2px;
   line-height: 140%;
