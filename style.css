@@ -56,7 +56,10 @@ h1 {
 
 p {
   font-size: 15px;
-  font-weight: 100;
   letter-spacing: 0.2px;
   line-height: 140%;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
