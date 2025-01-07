@@ -61,7 +61,8 @@ body {
   letter-spacing: 0.2px;
   font-family: "Outfit", serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
+  color: #68778d;
 }
 /* Fungsi untuk membuat Container Full Page  */
