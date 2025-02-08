@@ -1,75 +1,39 @@
+:root {
+  --primary-color: #d5e1ef;
+  --secondary-color: #68778d;
+  --third-color: #1f314f;
+  --four-color: #fff;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  /* ukuran akan menyesuaikan device */
-  height: 100vh;
-  width: 100vw;
-  /* ukuran akan menyesuaikan device */
-  /* flex berguna untuk menengahkan tulisan */
-  display: flex;
-  /* flex berguna untuk menengahkan tulisan */
+body.page {
   background-color: #d5e1ef;
   display: flex;
+  height: 100vh;
 }
 
-/* Fungsi untuk membuat Container Full Page  */
 .card {
   margin: auto;
   width: 320px;
   height: 499px;
   border-radius: 20px;
-  border: 1px transparent;
-  background-color: #ffffff;
-  box-shadow: 0 8px 12px -1px rgb(0 0 0 / 0.1), 0 4px 8px 0px rgb(0 0 0 / 0.1);
+  border: 1px solid var(--four-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--four-color);
 }
 
-.image-header img {
+.card__image img {
   width: 288px;
   height: 288px;
   margin-top: 16px;
-  margin-right: 16px;
-  margin-left: 16px;
   border-radius: 10px;
-  margin-bottom: 0px;
 }
 
-.text-information {
-  margin-top: 20px;
-  /* margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 40px; */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.card__text {
+  margin-top: 24px;
 }
-
-.text-information h1 {
-  color: #1f314f;
-  text-align: center;
-  font-size: 22px;
-  line-height: 120%;
-  letter-spacing: 0px;
-  font-family: "Outfit", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  width: 80%;
-}
-
-.text-information p {
-  margin-top: 16px;
-  text-align: center;
-  font-size: 15px;
-  line-height: 140%;
-  letter-spacing: 0.2px;
-  font-family: "Outfit", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #68778d;
-  width: 80%;
-}
-/* Fungsi untuk membuat Container Full Page  */
