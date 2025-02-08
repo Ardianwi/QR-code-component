@@ -3,6 +3,17 @@
   --secondary-color: #68778d;
   --third-color: #1f314f;
   --four-color: #fff;
+  /* TITLE */
+  --title-font-size: 22px;
+  --title-font-weight: 700;
+  --title-line-height: 120%;
+  --title-letter-spacing: 0px;
+
+  /* TEXT */
+  --text-font-size: 15px;
+  --text-font-weight: 400;
+  --text-line-height: 140%;
+  --text-letter-spacing: 0.2px;
 }
 * {
   margin: 0;
@@ -13,6 +24,7 @@ body.page {
   background-color: #d5e1ef;
   display: flex;
   height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
 
 .card {
@@ -41,10 +53,37 @@ body.page {
 }
 
 .card__title {
-  font-size: 22px;
+  color: var(--title-color);
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: var(--title-line-height);
+  letter-spacing: var(--title-letter-spacing);
 }
 
 .card__description {
   margin-top: 15px;
-  font-size: 15px;
+  color: var(--text-color);
+  font-size: var(--text-font-size);
+  font-weight: var(--text-font-weight);
+  line-height: var(--text-line-height);
+  letter-spacing: var(--text-letter-spacing);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  font-size: 11px;
+  color: hsl(216, 15%, 48%);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(0, 0%, 100%, 80%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
