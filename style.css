@@ -1,8 +1,24 @@
 :root {
-  --primary-color: #d5e1ef;
-  --secondary-color: #68778d;
-  --third-color: #1f314f;
-  --four-color: #fff;
+  --Slate-900: #1f314f;
+  --Slate-500: #68778d;
+  --Slate-300: #d5e1ef;
+  --white: #fff;
+  /* TEXT */
+
+  --text--title: 22px;
+  --text--descripttion: 15px;
+
+  /* line-height: ; */
+
+  --line--height--title: 120%;
+  --line--height--description: 140%;
+
+  /* letter spacing */
+
+  --letter--spacing--title: 0px;
+  --letter--spacing--description: 0.2px;
+
+  /*  */
 }
 * {
   margin: 0;
@@ -24,7 +40,7 @@ body.page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--four-color);
+  background-color: var(--white);
 }
 
 .card__image img {
@@ -42,9 +58,21 @@ body.page {
 
 .card__title {
   font-size: 22px;
+  line-height: var(--line--height--title);
+  letter-spacing: var(--letter--spacing--title);
+  color: var(--Slate-900);
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .card__description {
   margin-top: 15px;
   font-size: 15px;
+  color: #68778d;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 140;
+  font-style: normal;
 }
